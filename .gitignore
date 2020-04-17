@@ -1,0 +1,14 @@
+.phpunit.result.cache
+/.idea
+/.vscode
+/nbproject
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.php_cs
+.rnd
+*.code-workspace
+/packages
+*.zip

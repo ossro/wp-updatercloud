@@ -1,0 +1,23 @@
+{
+	"name": "ossro/wp-updatr",
+	"type": "library",
+	"description": "A custom update checker for WordPress plugins and themes using the Updatr.io service.",
+	"keywords": ["wordpress", "plugin updates", "automatic updates", "theme updates", "updatr", "updatr.io"],
+	"homepage": "https://github.com/ossro/wp-updatr/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aladar Barthi",
+			"email": "support@updatr.io",
+			"homepage": "http://updatr.io/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"files": ["load-v1p0.php"]
+	}
+}
