@@ -18,7 +18,7 @@ if (!class_exists('Updatr_v1p0_Plugin_Update', false)) :
         public $filename; //Plugin filename relative to the plugins directory.
 
         protected static $extraFields = array(
-            'id', 'homepage', 'tested', 'upgrade_notice', 'icons', 'filename',
+            'id', 'homepage', 'tested', 'requires_php', 'upgrade_notice', 'icons', 'filename',
         );
 
         /**
@@ -85,6 +85,7 @@ if (!class_exists('Updatr_v1p0_Plugin_Update', false)) :
             $update->id = $this->id;
             $update->url = $this->homepage;
             $update->tested = $this->tested;
+            $update->requires_php = $this->requires_php;
             $update->plugin = $this->filename;
 
             if (!empty($this->upgrade_notice)) {

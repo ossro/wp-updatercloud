@@ -51,6 +51,12 @@ if (!class_exists('UpdatrReadmeParser', false)) :
                 $requires_at_least = null;
             }
 
+            // Requires PHP: 5.2.4
+            if (preg_match('|Requires PHP:(.*)|i', $file_contents, $_requires_php)) {
+                $requires_php = $this->sanitize_text($_requires_php[1]);
+            } else {
+                $requires_php = null;
+            }
 
             // Tested up to: 2.1
             if (preg_match('|Tested up to:(.*)|i', $file_contents, $_tested_up_to)) {
@@ -212,6 +218,7 @@ if (!class_exists('UpdatrReadmeParser', false)) :
                 'tags' => $tags,
                 'requires_at_least' => $requires_at_least,
                 'tested_up_to' => $tested_up_to,
+                'requires_php' => $requires_php,
                 'stable_tag' => $stable_tag,
                 'contributors' => $contributors,
                 'donate_link' => $donate_link,

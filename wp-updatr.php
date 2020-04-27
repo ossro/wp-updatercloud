@@ -1,6 +1,6 @@
 <?php
 /**
- * WP Updatr 4.9
+ * WP Updatr 1.0
  * http://updatr.io/
  *
  * Based on Plugin Update Checker Library 4.9 by Janis Elsts.
