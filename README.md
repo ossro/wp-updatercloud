@@ -4,9 +4,11 @@ This is a custom update checker library for WordPress plugins and themes using t
 
 Tutorial: [Integrate automatic updates to your free or premium WordPress plugins and themes](https://updatr.io/docs/1.x/update-server-free-premium-wordpress-plugins-themes)
 
-## About Updatr.io
+## About Updatr
 
-[Updatr.io](https://updatr.io) is a reliable update server and license manager for your premium (paid) Joomla extensions and templates, WordPress plugins and themes, or any other self-updating web-based application for which CI/CD is not possible (e.g. when your application is hosted on your customer's server, but you don't have access to the server to set up automatic deployments).
+[Updatr](https://updatr.io) is a reliable update server and license manager for premium WordPress plugins and themes, Joomla extensions and templates, or any other web-based applications for which continuous delivery is not possible. (e.g. when your application is hosted on your customer's server and you don't have access to the server to set up automatic deployments).
+
+**Updatr is free for all open source, non-commercial WordPress plugins and themes.**
 
 ## Credits
 
