@@ -1,15 +1,15 @@
 {
-	"name": "ossro/wp-updatr",
+	"name": "ossro/wp-updatercloud",
 	"type": "library",
-	"description": "A custom update checker for WordPress plugins and themes using the Updatr.io service.",
-	"keywords": ["wordpress", "plugin updates", "automatic updates", "theme updates", "updatr", "updatr.io"],
-	"homepage": "https://github.com/ossro/wp-updatr/",
+	"description": "A custom update checker for WordPress plugins and themes using the UpdaterCloud service.",
+	"keywords": ["wordpress", "plugin updates", "automatic updates", "theme updates", "updatercloud", "updatercloud.com"],
+	"homepage": "https://github.com/ossro/wp-updatercloud/",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Aladar Barthi",
-			"email": "support@updatr.io",
-			"homepage": "http://updatr.io/",
+			"email": "support@updatercloud.com",
+			"homepage": "http://updatercloud.com/",
 			"role": "Developer"
 		}
 	],
